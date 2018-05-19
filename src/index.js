@@ -7,7 +7,6 @@ import App from './scenes/app';
 import registerServiceWorker from './registerServiceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
-
 const target = document.querySelector('#root');
 
 render(
