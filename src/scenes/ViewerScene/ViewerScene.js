@@ -1,5 +1,5 @@
 import React from 'react';
-import Viewer from './components/Viewer';
+import Viewer from '../../components/Viewer.Components/Viewer';
 import { connect } from 'react-redux';
 import qs from 'query-string';
 import { setViewerEnv } from '../../modules/Viewer/ViewerAction';

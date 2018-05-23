@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
-import config from '../../config';
 
 class Home extends React.Component {
   constructor(props) {
@@ -16,6 +15,12 @@ class Home extends React.Component {
         },
         {
           extensions: ['Viewing.Extension.Demo'],
+          path: 'resources/models/seat/seat.svf',
+          thumbnailClass: 'seat-thumbnail',
+          name: 'Seat + Extension'
+        },
+        {
+          extensions: ['Viewing.Extension.Markup2D'],
           path: 'resources/models/seat/seat.svf',
           thumbnailClass: 'seat-thumbnail',
           name: 'Seat + Extension'
@@ -39,7 +44,7 @@ class Home extends React.Component {
               }
 
               return (
-                <Link key={idx} to={`/viewer?${query}`}>
+                <Link key={idx} to={`/configurator?${query}`}>
                   <figure>
                     <figcaption>{model.name}</figcaption>
                     <img
