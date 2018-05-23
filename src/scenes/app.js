@@ -13,7 +13,7 @@ class App extends React.Component {
   render() {
     return (
       <main>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={ConfiguratorScene} />
         <Route exact path="/viewer" component={ViewerScene} />
         <Route exact path="/configurator" component={ConfiguratorScene} />
         {this.dialogSvc.render()}
