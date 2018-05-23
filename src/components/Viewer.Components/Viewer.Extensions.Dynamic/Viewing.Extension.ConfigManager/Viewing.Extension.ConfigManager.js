@@ -9,7 +9,7 @@ import ContentEditable from 'react-contenteditable';
 import './Viewing.Extension.ConfigManager.css';
 import WidgetContainer from '../../../WidgetContainer';
 import 'react-dragula/dist/dragula.min.css';
-//import ServiceManager from 'SvcManager'
+import ServiceManager from '../../../../services/SvcManager';
 import Dragula from 'react-dragula';
 import sortBy from 'lodash/sortBy';
 import DOMPurify from 'dompurify';
@@ -37,9 +37,9 @@ class ConfigManagerExtension extends MultiModelExtensionBase {
 
     this.playPeriod = this.options.playPeriod || 1800;
 
-    /*this.dialogSvc =
-      ServiceManager.getService('DialogSvc')
-      */
+    this.dialogSvc = ServiceManager.getService('DialogSvc');
+    console.log('DialogSvC');
+    console.log(this.dialogSvc);
 
     this.itemsClass = this.guid();
 

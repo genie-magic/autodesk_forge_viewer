@@ -2,91 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee02c72-a151-4c72-ab65-37da08b32123" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/BaseComponent/BaseComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BaseComponent/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ClientAPI/ClientAPI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ClientAPI/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EventsEmitter/EventsEmitter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EventsEmitter/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Label/Label.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Label/Label.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Label/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Loader/Loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Loader/Loader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Loader/ReactLoader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Loader/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PaneManager/PaneElement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PaneManager/PaneManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PaneManager/PaneManager.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PaneManager/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Panel/Panel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Panel/Panel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Panel/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Stopwatch/Stopwatch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Stopwatch/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Switch/Switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Switch/Switch.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Switch/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/Viewer.Configurator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/Viewer.Configurator.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.Config.API.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ExtensionManager/ExtensionPane.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ExtensionManager/Viewing.Extension.ExtensionManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ExtensionManager/Viewing.Extension.ExtensionManager.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ExtensionManager/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/Viewing.Extension.Markup2D.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/Viewing.Extension.Markup2D.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsColorPicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsPanel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsStyleControlFactory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsStyleDropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsStyleToggleButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsUi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsUi.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsUiUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/spectrum.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/spectrum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelTransformer/Viewing.Extension.ModelTransformer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelTransformer/Viewing.Extension.ModelTransformer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelTransformer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Transform/TransformGizmos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Transform/Viewing.Extension.Transform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Transform/Viewing.Tool.Rotate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Transform/Viewing.Tool.Translate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Transform/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions/Viewer.ExtensionBase/Viewer.ExtensionBase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions/Viewer.ExtensionBase/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions/Viewer.MultiModelExtensionBase/Viewer.MultiModelExtensionBase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions/Viewer.MultiModelExtensionBase/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Toolkit/Viewer.Toolkit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Toolkit/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer/Viewer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer/Viewer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WidgetContainer/WidgetContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WidgetContainer/WidgetContainer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WidgetContainer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/AboutDlg/AboutDlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/AboutDlg/AboutDlg.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/AboutDlg/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DatabaseDlg/DatabaseDlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DatabaseDlg/DatabaseDlg.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DatabaseDlg/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/LayoutDlg/LayoutDlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/LayoutDlg/LayoutDlg.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/LayoutDlg/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/ServiceDlg/ServiceDlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/ServiceDlg/ServiceDlg.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/ServiceDlg/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/ThemeDlg/ThemeDlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/ThemeDlg/ThemeDlg.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/ThemeDlg/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/dialogs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/BaseSvc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/DialogSvc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/SvcManager.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Label/Label.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Label/Label.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Loader/Loader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Loader/Loader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaneManager/PaneManager.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PaneManager/PaneManager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Panel/Panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Panel/Panel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Switch/Switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch/Switch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/Viewer.Configurator.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/Viewer.Configurator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ExtensionManager/Viewing.Extension.ExtensionManager.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ExtensionManager/Viewing.Extension.ExtensionManager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/Viewing.Extension.Markup2D.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/Viewing.Extension.Markup2D.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsUi.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsUi.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelTransformer/Viewing.Extension.ModelTransformer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelTransformer/Viewing.Extension.ModelTransformer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer/Viewer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer/Viewer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WidgetContainer/WidgetContainer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WidgetContainer/WidgetContainer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scenes/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/Home/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/Home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scenes/ViewerScene/ViewerScene.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/ViewerScene/ViewerScene.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/ViewerScene/ViewerScene.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/ViewerScene/ViewerScene.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/ViewerScene/components/Extensions/Dynamic/Viewing.Extension.Demo/Viewing.Extension.Demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Demo/Viewing.Extension.Demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/ViewerScene/components/Extensions/Dynamic/Viewing.Extension.Demo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Demo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/ViewerScene/components/Viewer/Viewer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/ViewerScene/components/Viewer/Viewer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/ViewerScene/components/Viewer/Viewer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/ViewerScene/components/Viewer/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scenes/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -100,47 +98,88 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.575179">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Viewing.Extension.ConfigManager.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="321">
-                  <caret line="689" column="24" lean-forward="true" selection-start-line="689" selection-start-column="24" selection-end-line="689" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ConfiguratorScene.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="364">
-                  <caret line="1581" selection-start-line="1581" selection-end-line="1581" />
-                  <folding>
-                    <element signature="e#0#87#0" expanded="true" />
-                    <element signature="e#345#94474#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="Viewing.Extension.ConfigManager.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="213">
-                  <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ThemeDlg.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Dialogs/ThemeDlg/ThemeDlg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/global.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="275" column="7" lean-forward="true" selection-start-line="275" selection-start-column="7" selection-end-line="275" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Dialogs/LayoutDlg/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="LayoutDlg.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Dialogs/LayoutDlg/LayoutDlg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseDlg.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Dialogs/DatabaseDlg/DatabaseDlg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Dialogs/DatabaseDlg/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="AboutDlg.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Dialogs/AboutDlg/AboutDlg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Dialogs/AboutDlg/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceDlg.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Dialogs/ServiceDlg/ServiceDlg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="174" column="14" selection-start-line="174" selection-start-column="9" selection-end-line="174" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Dialogs/ServiceDlg/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -151,12 +190,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>this.Autodesk</find>
-      <find>this.AUtodesk</find>
-      <find>MarkupsUi.scss</find>
-      <find>jQuery</find>
-      <find>tinycolor</find>
-      <find>Loader</find>
       <find>ContentEditable</find>
       <find>Markup2DExtension</find>
       <find>Viewing.Extension.ConfigManager</find>
@@ -181,6 +214,12 @@
       <find>analytics/upload</find>
       <find>.scss</find>
       <find>this.props.urn</find>
+      <find>reflex-layout</find>
+      <find>markups 2d</find>
+      <find>font-awesome</find>
+      <find>dialogSvc</find>
+      <find>addSequence</find>
+      <find>react-modal</find>
     </findStrings>
     <replaceStrings>
       <replace>window.Autodesk</replace>
@@ -193,16 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/scenes/ViewerScene/components/Extensions/Dynamic/Viewing.Extension.Demo/Viewing.Extension.Demo.js" />
-        <option value="$PROJECT_DIR$/src/scenes/ViewerScene/components/Viewer/Viewer.js" />
-        <option value="$PROJECT_DIR$/src/common/CommonFunctions.js" />
-        <option value="$PROJECT_DIR$/src/common/index.js" />
-        <option value="$PROJECT_DIR$/src/modules/reducer.js" />
-        <option value="$PROJECT_DIR$/src/modules/Viewer/ViewerReducer.js" />
-        <option value="$PROJECT_DIR$/src/modules/Viewer/ViewerAction.js" />
-        <option value="$PROJECT_DIR$/src/scenes/components/Viewer/Viewer.js" />
-        <option value="$PROJECT_DIR$/src/scenes/components/Viewer.Components/Viewer/index.js" />
         <option value="$PROJECT_DIR$/src/scenes/ViewerScene/ViewerScene.js" />
         <option value="$PROJECT_DIR$/src/scenes/components/Viewer.Components/Viewer/Viewer.js" />
         <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/index.js" />
@@ -224,7 +253,6 @@
         <option value="$PROJECT_DIR$/src/components/Switch/index.js" />
         <option value="$PROJECT_DIR$/src/components/Switch/Switch.js" />
         <option value="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.scss" />
-        <option value="$PROJECT_DIR$/src/scenes/app.js" />
         <option value="$PROJECT_DIR$/src/scenes/Home/Home.js" />
         <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer/Viewer.js" />
         <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.Config.API.js" />
@@ -239,11 +267,22 @@
         <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Transform/Viewing.Tool.Rotate.js" />
         <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Transform/Viewing.Extension.Transform.js" />
         <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions/Viewer.ExtensionBase/Viewer.ExtensionBase.js" />
-        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.js" />
         <option value="$PROJECT_DIR$/src/components/PaneManager/PaneManager.js" />
         <option value="$PROJECT_DIR$/src/components/PaneManager/PaneElement.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/services/DialogSvc.js" />
+        <option value="$PROJECT_DIR$/src/store.js" />
+        <option value="$PROJECT_DIR$/src/services/BaseSvc.js" />
+        <option value="$PROJECT_DIR$/src/components/Dialogs/LayoutDlg/LayoutDlg.js" />
+        <option value="$PROJECT_DIR$/src/components/Dialogs/DatabaseDlg/DatabaseDlg.js" />
+        <option value="$PROJECT_DIR$/src/components/Dialogs/AboutDlg/AboutDlg.js" />
+        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.js" />
+        <option value="$PROJECT_DIR$/src/scenes/app.js" />
+        <option value="$PROJECT_DIR$/src/components/Dialogs/ThemeDlg/ThemeDlg.js" />
+        <option value="$PROJECT_DIR$/src/components/Dialogs/ServiceDlg/ServiceDlg.js" />
+        <option value="$PROJECT_DIR$/src/global.scss" />
       </list>
     </option>
   </component>
@@ -263,11 +302,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="y" value="23" />
-    <option name="width" value="1257" />
-    <option name="height" value="977" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="132" />
+    <option name="y" value="1" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -275,171 +314,93 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ClientAPI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="PaneManager" type="462c0819:PsiDirectoryNode" />
+              <item name="Dialogs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Dialogs" type="462c0819:PsiDirectoryNode" />
+              <item name="AboutDlg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="Dialogs" type="462c0819:PsiDirectoryNode" />
+              <item name="LayoutDlg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Configurator" type="462c0819:PsiDirectoryNode" />
+              <item name="Dialogs" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceDlg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="Dialogs" type="462c0819:PsiDirectoryNode" />
+              <item name="ThemeDlg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.ExtensionBase" type="462c0819:PsiDirectoryNode" />
+              <item name="Dialogs" type="462c0819:PsiDirectoryNode" />
+              <item name="dialogs.scss" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Extensions.Dynamic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Extensions.Dynamic" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewing.Extension.ConfigManager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Extensions.Dynamic" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewing.Extension.ExtensionManager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Extensions.Dynamic" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewing.Extension.Transform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Toolkit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="WidgetContainer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scenes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scenes" type="462c0819:PsiDirectoryNode" />
-              <item name="ConfiguratorScene" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scenes" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scenes" type="462c0819:PsiDirectoryNode" />
-              <item name="ViewerScene" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,19 +411,19 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/Viewer.Components" />
-      <recent name="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator" />
-      <recent name="$PROJECT_DIR$/src/scenes/components/Viewer.Components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/scenes/components/Viewer.Components/Viewer.Extensions.Dynamic" />
       <recent name="$PROJECT_DIR$/src/scenes/components/viewer.components" />
       <recent name="$PROJECT_DIR$/src/scenes" />
       <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work_Web\Work_Roni\Project\autodesk-forge-viewer\src\services" />
+      <recent name="E:\Work_Web\Work_Roni\Project\autodesk-forge-viewer\src\components" />
+      <recent name="E:\Work_Web\Work_Roni\Project\autodesk-forge-viewer\src\assets\fonts" />
+      <recent name="$PROJECT_DIR$/src/components/Viewer.Components" />
+      <recent name="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -499,30 +460,41 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52929000" />
+    <option name="totallyTimeSpent" value="62646000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="23" width="1257" height="977" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32140017" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.340625" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32694477" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3275862" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32140017" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32694477" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,212 +509,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsStyleToggleButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsStyleControlFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsStyleDropdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WidgetContainer/WidgetContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1017">
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Loader/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsUi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions/Viewer.MultiModelExtensionBase/Viewer.MultiModelExtensionBase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Panel/Panel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#908#949#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Label/Label.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Switch/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Switch/Switch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="84" column="28" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Demo/Viewing.Extension.Demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/Viewing.Extension.Markup2D.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-137">
-          <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#214#306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="58" lean-forward="true" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/BaseComponent/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/BaseComponent/BaseComponent.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/Home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/ViewerScene/ViewerScene.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-438">
-          <caret line="95" column="36" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.Config.API.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#155#189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ClientAPI/ClientAPI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ClientAPI/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ExtensionManager/ExtensionPane.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PaneManager/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ExtensionManager/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelTransformer/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Tooltip/Viewer.Tooltip.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#96#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Tooltip/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelTransformer/Viewing.Extension.ModelTransformer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -817,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="689" column="24" lean-forward="true" selection-start-line="689" selection-start-column="24" selection-end-line="689" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/PaneManager/PaneManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -838,13 +597,6 @@
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -875,31 +627,223 @@
     <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer/Viewer.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/Viewer.Configurator.scss">
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="138">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/Viewer.Configurator.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="67" column="33" lean-forward="true" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+        <state relative-caret-position="483">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/global.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/Home/Home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2254">
+          <caret line="97" column="2" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="2" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#415#454#0" expanded="true" />
+            <element signature="e#439789#513382#2" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="1581" selection-start-line="1581" selection-end-line="1581" />
+        <state relative-caret-position="989">
+          <caret line="1357" column="15" selection-start-line="1357" selection-start-column="15" selection-end-line="1357" selection-end-column="15" />
           <folding>
-            <element signature="e#0#87#0" expanded="true" />
-            <element signature="e#345#94474#0" />
+            <element signature="e#350#87893#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/Viewer.Configurator.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/fonts/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/Viewing.Extension.Markup2D.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="345" column="20" selection-start-line="345" selection-start-column="9" selection-end-line="345" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/es/DropdownButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/es/Dropdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="353" column="4" selection-start-line="353" selection-start-column="4" selection-end-line="353" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/Viewer.Configurator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18756">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/Viewer.Configurator.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/SvcManager.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dialogs/DatabaseDlg/DatabaseDlg.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/BaseSvc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/DialogSvc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="225" column="19" selection-start-line="225" selection-start-column="19" selection-end-line="225" selection-end-column="36" />
+          <folding>
+            <element signature="e#194#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dialogs/dialogs.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dialogs/ThemeDlg/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dialogs/ThemeDlg/ThemeDlg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dialogs/LayoutDlg/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dialogs/LayoutDlg/LayoutDlg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dialogs/DatabaseDlg/DatabaseDlg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dialogs/DatabaseDlg/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dialogs/AboutDlg/AboutDlg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dialogs/AboutDlg/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dialogs/ServiceDlg/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="275" column="7" lean-forward="true" selection-start-line="275" selection-start-column="7" selection-end-line="275" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dialogs/ServiceDlg/ServiceDlg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="174" column="14" selection-start-line="174" selection-start-column="9" selection-end-line="174" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

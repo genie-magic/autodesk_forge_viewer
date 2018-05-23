@@ -5,6 +5,15 @@ import createHistory from 'history/createBrowserHistory';
 import rootReducer from './modules/reducer';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
+import ServiceManager from './services/SvcManager';
+import DialogSvc from './services/DialogSvc';
+const dialogSvc = new DialogSvc();
+
+// ========================================================
+// Services Registration
+// ========================================================
+ServiceManager.registerService(dialogSvc);
+
 export const history = createHistory();
 
 const initialState = {};
