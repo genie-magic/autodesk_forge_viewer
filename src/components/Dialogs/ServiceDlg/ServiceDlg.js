@@ -153,6 +153,7 @@ export default class ServiceDlg extends React.Component {
           onRequestClose={this.onRequestClose}
           className={classNames.join(' ')}
           isOpen={this.props.open}
+          ariaHideApp={false}
           contentLabel=""
         >
           {this.renderTitle()}

@@ -34,12 +34,16 @@ const dbModel = {
             }
           },
           {
-            id: 'Viewing.Extension.ModelTransformer',
+            id: 'Viewing.Extension.ModelLoader',
             enabled: true,
             options: {
               displayIndex: 1,
-              fullTransform: false,
-              hideControls: true
+              flex: 0.3,
+              database: 'gallery_dump',
+              transformer: {
+                fullTransform: true,
+                hideControls: false
+              }
             }
           }
         ]

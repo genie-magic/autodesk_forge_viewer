@@ -7,12 +7,21 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 
 import ServiceManager from './services/SvcManager';
 import DialogSvc from './services/DialogSvc';
+import ModelSvc from './services/ModelSvc';
+
+// ========================================================
+// Services Initialization
+// ========================================================
 const dialogSvc = new DialogSvc();
+const modelSvc = new ModelSvc({
+  apiUrl: '/api/models'
+});
 
 // ========================================================
 // Services Registration
 // ========================================================
 ServiceManager.registerService(dialogSvc);
+// ServiceManager.registerService(modelSvc);
 
 export const history = createHistory();
 
