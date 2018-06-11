@@ -184,6 +184,7 @@ class ModelLoaderExtension extends MultiModelExtensionBase {
   //
   /////////////////////////////////////////////////////////
   onModelCompletedLoad(event) {
+    console.log('onModelCompletedLoad HERE +++++++++++++');
     const model = event.model;
 
     const modelScale = model.getUnitScale();
@@ -193,6 +194,16 @@ class ModelLoaderExtension extends MultiModelExtensionBase {
     if (modelScale !== this.refScale) {
       this.scaleModel(model, modelScale / this.refScale);
     }
+
+    // Update models to show on dropbox
+    const { models } = this.react.getState();
+    this.react.setState({
+      models: [...models, model]
+    });
+    this.setActiveModel(model, {
+      source: 'model.loaded',
+      fitToView: true
+    });
   }
 
   /////////////////////////////////////////////////////////
@@ -218,7 +229,7 @@ class ModelLoaderExtension extends MultiModelExtensionBase {
         {
           _id: '595cbcd2b015b92b16952cdd',
           env: 'Local',
-          name: 'Toy Plane',
+          name: 'Office',
           model: {
             path: 'resources/models/office/Resource/3D_View/3D/office.svf',
             urn:
@@ -228,9 +239,9 @@ class ModelLoaderExtension extends MultiModelExtensionBase {
         {
           _id: '595cbce2b015b92b16952cde',
           env: 'Local',
-          name: 'Toy Plane (wood)',
+          name: 'Truck',
           model: {
-            path: 'resources/models/office/Resource/3D_View/3D/office.svf',
+            path: 'resources/models/MiningTruck/1/Mining Truck.svf',
             urn:
               'dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6Zm9yZ2UtcmNkYi1nYWxsZXJ5LXRtcC1wcm9kL2RlNTktYTgxOC0zYzA1LmYzZA'
           }
@@ -238,9 +249,9 @@ class ModelLoaderExtension extends MultiModelExtensionBase {
         {
           _id: '595cbd56b015b92b16952cdf',
           env: 'Local',
-          name: 'RC Car',
+          name: 'Seat',
           model: {
-            path: 'resources/models/office/Resource/3D_View/3D/office.svf',
+            path: 'resources/models/seat/seat.svf',
             urn:
               'dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6Zm9yZ2UtcmNkYi1nYWxsZXJ5LXRtcC1wcm9kLzA0NjAtOGYyYy0wMjY5LmYzZA'
           }
@@ -469,6 +480,7 @@ class ModelLoaderExtension extends MultiModelExtensionBase {
   onModelBeginLoad(event) {
     const { models } = this.react.getState();
 
+    console.log('onModelBeginLoad called');
     const model = event.model;
 
     this.react.setState({

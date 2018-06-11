@@ -45,6 +45,14 @@ const dbModel = {
                 hideControls: false
               }
             }
+          },
+          {
+            id: 'Viewing.Extension.SelectionFilter',
+            enabled: true,
+            options: {
+              displayIndex: 0,
+              flex: 0.7
+            }
           }
         ]
       }

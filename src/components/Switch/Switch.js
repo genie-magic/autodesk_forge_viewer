@@ -31,6 +31,7 @@ export default class Switch extends React.Component {
     this.state = {
       checked: true
     };
+    this.toggle = this.toggle.bind(this);
   }
 
   /////////////////////////////////////////////////////////
@@ -48,6 +49,8 @@ export default class Switch extends React.Component {
   //
   /////////////////////////////////////////////////////////
   toggle() {
+    console.log('THIS HERE');
+    console.log(this);
     if (this.props.disabled) {
       return;
     }

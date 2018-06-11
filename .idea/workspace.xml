@@ -2,45 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee02c72-a151-4c72-ab65-37da08b32123" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Image/Image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Image/Image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Image/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ContextMenu/Viewing.Extension.ContextMenu.Handler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ContextMenu/Viewing.Extension.ContextMenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ContextMenu/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/MultiModelStructurePanel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/Viewing.Extension.ModelLoader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/Viewing.Extension.ModelLoader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/ModelSvc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/font-awesome.css" afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Dialogs/AboutDlg/AboutDlg.css" afterPath="$PROJECT_DIR$/src/components/Dialogs/AboutDlg/AboutDlg.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Dialogs/DatabaseDlg/DatabaseDlg.css" afterPath="$PROJECT_DIR$/src/components/Dialogs/DatabaseDlg/DatabaseDlg.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Dialogs/LayoutDlg/LayoutDlg.css" afterPath="$PROJECT_DIR$/src/components/Dialogs/LayoutDlg/LayoutDlg.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Dialogs/ServiceDlg/ServiceDlg.css" afterPath="$PROJECT_DIR$/src/components/Dialogs/ServiceDlg/ServiceDlg.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Dialogs/ServiceDlg/ServiceDlg.js" afterPath="$PROJECT_DIR$/src/components/Dialogs/ServiceDlg/ServiceDlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Dialogs/ThemeDlg/ThemeDlg.css" afterPath="$PROJECT_DIR$/src/components/Dialogs/ThemeDlg/ThemeDlg.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Dialogs/dialogs.css" afterPath="$PROJECT_DIR$/src/components/Dialogs/dialogs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Label/Label.css" afterPath="$PROJECT_DIR$/src/components/Label/Label.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Loader/Loader.css" afterPath="$PROJECT_DIR$/src/components/Loader/Loader.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/PaneManager/PaneManager.css" afterPath="$PROJECT_DIR$/src/components/PaneManager/PaneManager.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Panel/Panel.css" afterPath="$PROJECT_DIR$/src/components/Panel/Panel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Switch/Switch.css" afterPath="$PROJECT_DIR$/src/components/Switch/Switch.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/Viewer.Configurator.css" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/Viewer.Configurator.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.css" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ExtensionManager/Viewing.Extension.ExtensionManager.css" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ExtensionManager/Viewing.Extension.ExtensionManager.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/Viewing.Extension.Markup2D.css" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/Viewing.Extension.Markup2D.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsUi.css" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsUi.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelTransformer/Viewing.Extension.ModelTransformer.css" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelTransformer/Viewing.Extension.ModelTransformer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer/Viewer.css" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer/Viewer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/WidgetContainer/WidgetContainer.css" afterPath="$PROJECT_DIR$/src/components/WidgetContainer/WidgetContainer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/global.css" afterPath="$PROJECT_DIR$/src/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.css" afterPath="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.js" afterPath="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scenes/Home/Home.css" afterPath="$PROJECT_DIR$/src/scenes/Home/Home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scenes/ViewerScene/ViewerScene.css" afterPath="$PROJECT_DIR$/src/scenes/ViewerScene/ViewerScene.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store.js" afterPath="$PROJECT_DIR$/src/store.js" />
+      <change afterPath="$PROJECT_DIR$/src/components/TreeView/TreeDelegate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TreeView/TreeNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TreeView/TreeView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TreeView/base/TreeDelegateBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TreeView/base/TreeViewBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TreeView/base/treeview.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TreeView/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.EventTool/Viewer.EventTool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.EventTool/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/FilterTreeView/FilterTreeDelegate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/FilterTreeView/FilterTreeNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/FilterTreeView/FilterTreeView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/FilterTreeView/FilterTreeView.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/FilterTreeView/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/Viewing.Extension.SelectionFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/Viewing.Extension.SelectionFilter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/scss/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/AboutDlg/AboutDlg.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/AboutDlg/AboutDlg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DatabaseDlg/DatabaseDlg.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DatabaseDlg/DatabaseDlg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/LayoutDlg/LayoutDlg.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/LayoutDlg/LayoutDlg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/ServiceDlg/ServiceDlg.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/ServiceDlg/ServiceDlg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/ThemeDlg/ThemeDlg.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/ThemeDlg/ThemeDlg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/dialogs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/dialogs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Image/Image.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Image/Image.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Label/Label.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Label/Label.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Loader/Loader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Loader/Loader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaneManager/PaneManager.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PaneManager/PaneManager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Panel/Panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Panel/Panel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Switch/Switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch/Switch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Switch/Switch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch/Switch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/Viewer.Configurator.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/Viewer.Configurator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ExtensionManager/Viewing.Extension.ExtensionManager.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ExtensionManager/Viewing.Extension.ExtensionManager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/Viewing.Extension.Markup2D.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/Viewing.Extension.Markup2D.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsUi.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsUi.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/Viewing.Extension.ModelLoader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/Viewing.Extension.ModelLoader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/Viewing.Extension.ModelLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/Viewing.Extension.ModelLoader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelTransformer/Viewing.Extension.ModelTransformer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelTransformer/Viewing.Extension.ModelTransformer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions/Viewer.MultiModelExtensionBase/Viewer.MultiModelExtensionBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions/Viewer.MultiModelExtensionBase/Viewer.MultiModelExtensionBase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer/Viewer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer.Components/Viewer/Viewer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WidgetContainer/WidgetContainer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WidgetContainer/WidgetContainer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/Home/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/ViewerScene/ViewerScene.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/ViewerScene/ViewerScene.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,125 +65,38 @@
     <favorites_list name="autodesk_forge_viewer" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Viewing.Extension.ModelLoader.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/Viewing.Extension.ModelLoader.js">
+    <leaf>
+      <file leaf-file-name="Viewing.Extension.SelectionFilter.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/Viewing.Extension.SelectionFilter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="605" column="18" lean-forward="false" selection-start-line="605" selection-start-column="13" selection-end-line="605" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Viewing.Extension.ModelLoader.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/Viewing.Extension.ModelLoader.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="viewer3D.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/plugins/viewer3D.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="47577" column="5" lean-forward="true" selection-start-line="47577" selection-start-column="5" selection-end-line="47577" selection-end-column="5" />
-              <folding>
-                <marker date="1527959939175" expanded="true" signature="369710:369850" ph="..." />
-                <marker date="1527959939175" expanded="true" signature="370033:370181" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarkupsPanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsPanel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="257" column="48" lean-forward="true" selection-start-line="257" selection-start-column="48" selection-end-line="257" selection-end-column="48" />
-              <folding>
-                <marker date="1527959939202" expanded="true" signature="2278:5056" ph="..." />
-                <marker date="1527959939202" expanded="true" signature="2313:3736" ph="..." />
-                <marker date="1527959939202" expanded="true" signature="2368:3719" ph="..." />
-                <marker date="1527959939202" expanded="true" signature="2651:2657" ph=" " />
-                <marker date="1527959939202" expanded="true" signature="2947:3702" ph="..." />
-                <marker date="1527959939202" expanded="true" signature="3016:3065" ph="..." />
-                <marker date="1527959939202" expanded="true" signature="3133:3182" ph="..." />
-                <marker date="1527959939202" expanded="true" signature="3259:3312" ph="..." />
-                <marker date="1527959939202" expanded="true" signature="3383:3433" ph="..." />
-                <marker date="1527959939202" expanded="true" signature="3502:3551" ph="..." />
-                <marker date="1527959939202" expanded="true" signature="3626:3678" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultiModelStructurePanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/MultiModelStructurePanel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4522">
-              <caret line="1418" column="30" lean-forward="false" selection-start-line="1418" selection-start-column="14" selection-end-line="1418" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Viewer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer/Viewer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="126" column="4" lean-forward="true" selection-start-line="126" selection-start-column="4" selection-end-line="126" selection-end-column="4" />
+            <state relative-caret-position="424">
+              <caret line="274" column="56" lean-forward="true" selection-start-line="274" selection-start-column="56" selection-end-line="274" selection-end-column="56" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#888#914#0" expanded="true" />
+                <element signature="e#220#245#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Viewer.Configurator.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/Viewer.Configurator.js">
+      <file leaf-file-name="Viewer.Toolkit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Toolkit/Viewer.Toolkit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="222" column="54" lean-forward="false" selection-start-line="222" selection-start-column="54" selection-end-line="222" selection-end-column="54" />
+            <state relative-caret-position="179">
+              <caret line="634" column="14" selection-start-line="634" selection-start-column="9" selection-end-line="634" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilterTreeView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/FilterTreeView/FilterTreeView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1458">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#908#961#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registerServiceWorker.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1396">
-              <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -190,36 +112,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>DialogSvc</find>
-      <find>import ClientAPI</find>
-      <find>ViewerConfigurator</find>
-      <find>registerServiceWorker</find>
-      <find>dbModel</find>
-      <find>ServiceDlg</find>
-      <find>Markup2DExtension</find>
-      <find>renderCont</find>
-      <find>renderContent</find>
-      <find>dialogSvc</find>
-      <find>getModels</find>
-      <find>setAppElement</find>
-      <find>appElement</find>
-      <find>ariaHideApp</find>
-      <find>react-modal</find>
-      <find>modelSvc</find>
-      <find>Modal</find>
-      <find>eventSink</find>
-      <find>Model Browser</find>
-      <find>modelstructure</find>
-      <find>ViewerModelStructurePanel</find>
-      <find>window.location.hostname</find>
-      <find>reflex</find>
-      <find>ReflexElement</find>
-      <find>renderExtension</find>
-      <find>pushRenderExtension</find>
-      <find>viewermodelstructurepanel</find>
-      <find>markups-panel-content</find>
-      <find>structurepan</find>
       <find>MultiModelStructurePanel</find>
+      <find>EventTool</find>
+      <find>EventsEmitter</find>
+      <find>.scss</find>
+      <find>Sw</find>
+      <find>ReactTreeNode</find>
+      <find>sw</find>
+      <find>setDisabled</find>
+      <find>Switch</find>
+      <find>toggle</find>
+      <find>setNodeOff</find>
+      <find>cons</find>
+      <find>console.</find>
+      <find>setState</find>
+      <find>mount</find>
+      <find>render(</find>
+      <find>renderC</find>
+      <find>setstate</find>
+      <find>render</find>
+      <find>onModelBeginLoad</find>
+      <find>onModelCompletedLoad</find>
+      <find>onNodeChecked</find>
+      <find>instanceTree</find>
+      <find>visibilityManager</find>
+      <find>getNodeById</find>
+      <find>viewer</find>
+      <find>leafNodesMap</find>
+      <find>Toolkit</find>
+      <find>nodeC</find>
+      <find>hide(</find>
     </findStrings>
     <replaceStrings>
       <replace>window.Autodesk</replace>
@@ -235,19 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsStyleControlFactory.js" />
-        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsUiUtils.js" />
-        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsStyleDropdown.js" />
-        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsUi.js" />
-        <option value="$PROJECT_DIR$/src/components/WidgetContainer/WidgetContainer.js" />
-        <option value="$PROJECT_DIR$/src/components/Loader/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions/Viewer.MultiModelExtensionBase/Viewer.MultiModelExtensionBase.js" />
-        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Demo/Viewing.Extension.Demo.js" />
-        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/Viewing.Extension.Markup2D.js" />
-        <option value="$PROJECT_DIR$/src/components/Label/Label.js" />
-        <option value="$PROJECT_DIR$/src/components/Switch/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Switch/Switch.js" />
-        <option value="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.scss" />
         <option value="$PROJECT_DIR$/src/scenes/Home/Home.js" />
         <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer/Viewer.js" />
         <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.Config.API.js" />
@@ -282,10 +191,23 @@
         <option value="$PROJECT_DIR$/src/services/ModelSvc.js" />
         <option value="$PROJECT_DIR$/src/store.js" />
         <option value="$PROJECT_DIR$/src/components/Panel/Panel.js" />
-        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/Viewing.Extension.ModelLoader.js" />
-        <option value="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.js" />
         <option value="$PROJECT_DIR$/src/components/Dialogs/ServiceDlg/ServiceDlg.js" />
         <option value="$PROJECT_DIR$/src/registerServiceWorker.js" />
+        <option value="$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.js" />
+        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.EventTool/Viewer.EventTool.js" />
+        <option value="$PROJECT_DIR$/src/components/TreeView/TreeDelegate.js" />
+        <option value="$PROJECT_DIR$/src/components/TreeView/base/TreeDelegateBase.js" />
+        <option value="$PROJECT_DIR$/src/components/TreeView/TreeNode.js" />
+        <option value="$PROJECT_DIR$/src/components/TreeView/base/TreeViewBase.js" />
+        <option value="$PROJECT_DIR$/src/components/TreeView/TreeView.js" />
+        <option value="$PROJECT_DIR$/src/components/TreeView/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/FilterTreeView/FilterTreeDelegate.js" />
+        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/FilterTreeView/FilterTreeNode.js" />
+        <option value="$PROJECT_DIR$/src/components/Switch/Switch.js" />
+        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions/Viewer.MultiModelExtensionBase/Viewer.MultiModelExtensionBase.js" />
+        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/Viewing.Extension.ModelLoader.js" />
+        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/FilterTreeView/FilterTreeView.js" />
+        <option value="$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/Viewing.Extension.SelectionFilter.js" />
       </list>
     </option>
   </component>
@@ -306,132 +228,112 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="132" />
-    <option name="y" value="1" />
+    <option name="x" value="161" />
+    <option name="y" value="58" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Viewer.Components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer.Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Viewer.Components" type="462c0819:PsiDirectoryNode" />
               <item name="Viewer.Extensions.Dynamic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Viewer.Components" type="462c0819:PsiDirectoryNode" />
               <item name="Viewer.Extensions.Dynamic" type="462c0819:PsiDirectoryNode" />
-              <item name="Viewing.Extension.ModelLoader" type="462c0819:PsiDirectoryNode" />
+              <item name="Viewing.Extension.SelectionFilter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="autodesk-forge-viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autodesk-forge-viewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autodesk_forge_viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autodesk_forge_viewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="scenes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../forge-rcdb.nodejs_XinzheLi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sample Project/forge-rcdb.nodejs/src/client/viewer.components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/Viewing.Extension.ModelLoader.js" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work_Web\Work_Roni\Project\autodesk-forge-viewer\src\components" />
+      <recent name="E:\Work_Web\Work_Roni\Project\autodesk-forge-viewer\src\components\Viewer.Components" />
+      <recent name="D:\Projects\20180602_ReactJS_ASP_XinzheLi\autodesk_forge_viewer\src\services" />
+      <recent name="D:\Projects\20180602_ReactJS_ASP_XinzheLi\autodesk_forge_viewer\src\components\Viewer.Components\Viewer.Extensions.Dynamic" />
+      <recent name="D:\Projects\20180602_ReactJS_ASP_XinzheLi\autodesk_forge_viewer\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Work_Web\Work_Roni\Project\autodesk-forge-viewer\src\components\Viewer.Components\Viewer.Extensions.Dynamic" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/scenes/components/Viewer.Components/Viewer.Extensions.Dynamic" />
       <recent name="$PROJECT_DIR$/src/scenes/components/viewer.components" />
       <recent name="$PROJECT_DIR$/src/scenes" />
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\20180602_ReactJS_ASP_XinzheLi\autodesk_forge_viewer\src\services" />
-      <recent name="D:\Projects\20180602_ReactJS_ASP_XinzheLi\autodesk_forge_viewer\src\components\Viewer.Components\Viewer.Extensions.Dynamic" />
-      <recent name="D:\Projects\20180602_ReactJS_ASP_XinzheLi\autodesk_forge_viewer\src\components" />
-      <recent name="E:\Work_Web\Work_Roni\Project\autodesk-forge-viewer\src\services" />
-      <recent name="E:\Work_Web\Work_Roni\Project\autodesk-forge-viewer\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -457,13 +359,10 @@
       <envs />
     </configuration>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="npm.start-js" />
+      <list>
+        <item itemvalue="npm.start-js" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -496,11 +395,12 @@
       <workItem from="1528424830793" duration="16249000" />
       <workItem from="1528472208978" duration="4376000" />
       <workItem from="1528512013864" duration="9689000" />
+      <workItem from="1528710208647" duration="15423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129831000" />
+    <option name="totallyTimeSpent" value="145254000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,25 +412,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17123288" sideWeight="0.7798165" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28207847" sideWeight="0.25052083" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17123288" sideWeight="0.22018349" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.76304346" sideWeight="0.7494792" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17123288" sideWeight="0.22018349" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7798165" visible="true" weight="0.17083333" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32934782" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.25052083" side_tool="true" weight="0.28207847" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32934782" />
+      <window_info id="npm" order="2" sideWeight="0.22018349" side_tool="true" weight="0.17123288" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.7494792" visible="true" weight="0.35910478" />
+      <window_info id="Favorites" order="2" sideWeight="0.22018349" side_tool="true" weight="0.17123288" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,194 +471,40 @@
     <breakpoint-manager>
       <option name="time" value="4" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/Viewing.Extension.Markup2D.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Transform/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/BaseSvc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/SvcManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Panel/Panel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ExtensionManager/Viewing.Extension.ExtensionManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Demo/Viewing.Extension.Demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ContextMenu/Viewing.Extension.ContextMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ContextMenu/Viewing.Extension.ContextMenu.Handler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.ConfigManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ConfigManager/Viewing.Extension.Config.API.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelTransformer/Viewing.Extension.ModelTransformer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Transform/TransformGizmos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Transform/Viewing.Extension.Transform.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Transform/Viewing.Tool.Rotate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Transform/Viewing.Tool.Translate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/ViewerScene/ViewerScene.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/Home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="49" />
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/Viewer/ViewerReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/Viewer/ViewerAction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/config/dev.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="29" />
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/config/prod.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/store.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -766,152 +514,70 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Dialogs/dialogs.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Dialogs/ThemeDlg/ThemeDlg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Dialogs/LayoutDlg/LayoutDlg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Dialogs/DatabaseDlg/DatabaseDlg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1527959939179" expanded="true" signature="7:34" ph="..." />
-            <marker date="1527959939179" expanded="true" signature="1905:1909" ph="{...}" />
-            <marker date="1527959939179" expanded="true" signature="1905:1911" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Dialogs/AboutDlg/AboutDlg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1527959939178" expanded="true" signature="7:39" ph="..." />
-            <marker date="1527959939178" expanded="true" signature="2146:2150" ph="{...}" />
-            <marker date="1527959939178" expanded="true" signature="2146:2152" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/services/DialogSvc.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2266">
-          <caret line="103" column="3" lean-forward="false" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="3" />
-          <folding>
-            <marker date="1527959939227" expanded="true" signature="7:57" ph="..." />
-            <marker date="1527959939227" expanded="true" signature="2518:2522" ph="{...}" />
-            <marker date="1527959939227" expanded="true" signature="2518:2524" ph="{...}" />
-          </folding>
+          <caret line="103" column="3" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/Viewing.Extension.Markup2D.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7744">
-          <caret line="360" column="15" lean-forward="false" selection-start-line="360" selection-start-column="15" selection-end-line="360" selection-end-column="15" />
-          <folding />
+          <caret line="360" column="15" selection-start-line="360" selection-start-column="15" selection-end-line="360" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/services/ModelSvc.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1144">
-          <caret line="52" column="38" lean-forward="false" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="38" />
-          <folding />
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/BaseComponent/BaseComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ClientAPI/ClientAPI.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#36#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions/Viewer.MultiModelExtensionBase/Viewer.MultiModelExtensionBase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#88#0" expanded="true" />
-            <marker date="1528472819082" expanded="true" signature="3496:3795" ph="..." />
-            <marker date="1528472819082" expanded="true" signature="5732:6031" ph="..." />
-            <marker date="1528472819082" expanded="true" signature="8222:8521" ph="..." />
-            <marker date="1528472819082" expanded="true" signature="10712:11011" ph="..." />
-            <marker date="1528472819082" expanded="true" signature="15160:15459" ph="..." />
-            <marker date="1528472819082" expanded="true" signature="21520:21819" ph="..." />
-            <marker date="1528472819082" expanded="true" signature="28028:28327" ph="..." />
-          </folding>
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Dialogs/ServiceDlg/ServiceDlg.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3388">
-          <caret line="158" column="27" lean-forward="false" selection-start-line="158" selection-start-column="16" selection-end-line="158" selection-end-column="27" />
-          <folding>
-            <marker date="1528514405398" expanded="true" signature="7:34" ph="..." />
-            <marker date="1528514405398" expanded="true" signature="3865:3869" ph="{...}" />
-          </folding>
+          <caret line="158" column="27" selection-start-line="158" selection-start-column="16" selection-end-line="158" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="183" column="22" lean-forward="true" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js" />
     <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1396">
-          <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="736">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="460">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -920,7 +586,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer/Viewer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="2898">
           <caret line="126" column="4" lean-forward="true" selection-start-line="126" selection-start-column="4" selection-end-line="126" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -931,74 +597,248 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Configurator/Viewer.Configurator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="222" column="54" lean-forward="false" selection-start-line="222" selection-start-column="54" selection-end-line="222" selection-end-column="54" />
+        <state relative-caret-position="4991">
+          <caret line="222" column="54" selection-start-line="222" selection-start-column="54" selection-end-line="222" selection-end-column="54" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/plugins/viewer3D.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="47577" column="5" lean-forward="true" selection-start-line="47577" selection-start-column="5" selection-end-line="47577" selection-end-column="5" />
-          <folding>
-            <marker date="1527959939175" expanded="true" signature="369710:369850" ph="..." />
-            <marker date="1527959939175" expanded="true" signature="370033:370181" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.Markup2D/ui/MarkupsPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="257" column="48" lean-forward="true" selection-start-line="257" selection-start-column="48" selection-end-line="257" selection-end-column="48" />
-          <folding>
-            <marker date="1527959939202" expanded="true" signature="2278:5056" ph="..." />
-            <marker date="1527959939202" expanded="true" signature="2313:3736" ph="..." />
-            <marker date="1527959939202" expanded="true" signature="2368:3719" ph="..." />
-            <marker date="1527959939202" expanded="true" signature="2651:2657" ph=" " />
-            <marker date="1527959939202" expanded="true" signature="2947:3702" ph="..." />
-            <marker date="1527959939202" expanded="true" signature="3016:3065" ph="..." />
-            <marker date="1527959939202" expanded="true" signature="3133:3182" ph="..." />
-            <marker date="1527959939202" expanded="true" signature="3259:3312" ph="..." />
-            <marker date="1527959939202" expanded="true" signature="3383:3433" ph="..." />
-            <marker date="1527959939202" expanded="true" signature="3502:3551" ph="..." />
-            <marker date="1527959939202" expanded="true" signature="3626:3678" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/Viewing.Extension.ModelLoader.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="5911">
+          <caret line="257" column="48" selection-start-line="257" selection-start-column="48" selection-end-line="257" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/MultiModelStructurePanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4522">
-          <caret line="1418" column="30" lean-forward="false" selection-start-line="1418" selection-start-column="14" selection-end-line="1418" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="32614">
+          <caret line="1418" column="24" lean-forward="true" selection-start-line="1418" selection-start-column="14" selection-end-line="1418" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/Viewing.Extension.ModelLoader.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/plugins/viewer3D.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="47577" column="5" selection-start-line="47577" selection-start-column="5" selection-end-line="47577" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.EventTool/Viewer.EventTool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-966">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.EventTool/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TreeView/base/treeview.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/ConfiguratorScene/ConfiguratorScene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#88#0" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#g#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#g#1;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#g#2;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#g#3;n#svg#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Switch/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TreeView/TreeView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TreeView/TreeNode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TreeView/TreeDelegate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TreeView/base/TreeViewBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TreeView/base/TreeDelegateBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TreeView/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/FilterTreeView/FilterTreeDelegate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Switch/Switch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/FilterTreeView/FilterTreeNode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sample Project/forge-rcdb.nodejs/src/client/viewer.components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/Viewing.Extension.ModelLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="473" column="18" selection-start-line="473" selection-start-column="2" selection-end-line="473" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.ModelLoader/Viewing.Extension.ModelLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="605" column="18" lean-forward="false" selection-start-line="605" selection-start-column="13" selection-end-line="605" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="1367">
+          <caret line="201" column="7" lean-forward="true" selection-start-line="201" selection-start-column="7" selection-end-line="201" selection-end-column="7" />
+          <folding>
+            <element signature="e#187#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions/Viewer.MultiModelExtensionBase/Viewer.MultiModelExtensionBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="176" column="5" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/es/MenuItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/FilterTreeView/FilterTreeView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1458">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#908#961#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Toolkit/Viewer.Toolkit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="634" column="14" selection-start-line="634" selection-start-column="9" selection-end-line="634" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Viewer.Components/Viewer.Extensions.Dynamic/Viewing.Extension.SelectionFilter/Viewing.Extension.SelectionFilter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="274" column="56" lean-forward="true" selection-start-line="274" selection-start-column="56" selection-end-line="274" selection-end-column="56" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#220#245#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

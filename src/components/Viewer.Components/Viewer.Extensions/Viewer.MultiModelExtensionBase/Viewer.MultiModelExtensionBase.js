@@ -117,7 +117,7 @@ export default class MultiModelExtensionBase extends EventsEmitter.Composer(
   //
   /////////////////////////////////////////////////////////
   onModelBeginLoad(event) {
-    //console.log('MultiModelExtensionBase.onModelBeginLoad')
+    console.log('MultiModelExtensionBase.onModelBeginLoad');
   }
 
   /////////////////////////////////////////////////////////
