@@ -8,6 +8,7 @@ import WidgetContainer from '../../../WidgetContainer';
 import { ReactLoader } from '../../../Loader';
 import React from 'react';
 import { DropdownButton, MenuItem } from 'react-bootstrap';
+import { ButtonGroup, Button, Row, Col } from 'reactstrap';
 
 class Markup2DExtension extends MultiModelExtensionBase {
   /////////////////////////////////////////////////////////////////
@@ -23,8 +24,6 @@ class Markup2DExtension extends MultiModelExtensionBase {
     this.renderTitle = this.renderTitle.bind(this);
 
     this.react = options.react;
-    console.log('options here');
-    console.log(options);
   }
 
   /////////////////////////////////////////////////////////
@@ -37,7 +36,7 @@ class Markup2DExtension extends MultiModelExtensionBase {
         markupsMode: { name: 'Disabled', id: 'markupModeDisabled' },
         modes: [
           { name: 'Disabled', id: 'markupsModeDisabled' },
-          { name: 'View Markups', id: 'markupsModeView' },
+          /*{ name: 'View Markups', id: 'markupsModeView' },*/
           { name: 'Edit Markups', id: 'markupsModeEdit' }
         ],
         configManager: null,
@@ -99,6 +98,12 @@ class Markup2DExtension extends MultiModelExtensionBase {
         this.react.pushRenderExtension(this);
       });
 
+    // Bind select change event listener
+    this.onSelectionBinded = this.onSelectionEvent.bind(this);
+    this.viewer.addEventListener(
+      Autodesk.Viewing.SELECTION_CHANGED_EVENT,
+      this.onSelectionBinded
+    );
     console.log('Viewing.Extension.Markup2D loaded');
 
     return true;
@@ -125,6 +130,12 @@ class Markup2DExtension extends MultiModelExtensionBase {
   //
   /////////////////////////////////////////////////////////
   unload() {
+    this.viewer.removeEventListener(
+      Autodesk.Viewing.SELECTION_CHANGED_EVENT,
+      this.onSelectionBinded
+    );
+    this.onSelectionBinded = null;
+
     console.log('Viewing.Extension.Markup2D unloaded');
 
     super.unload();
@@ -146,6 +157,22 @@ class Markup2DExtension extends MultiModelExtensionBase {
     //this.options.loader.show(false)
   }
 
+  onSelectionEvent(event) {
+    let currSelection = this.viewer.getSelection();
+
+    console.log('selection data here');
+    console.log(currSelection);
+
+    let firstSel = currSelection[0];
+    // let model = firstSel.model;
+    // let dbIDs = firstSel.dbIdArray;
+    // console.log(event);
+    // console.log(model);
+    // console.log(dbIDs);
+    if (firstSel !== undefined && firstSel !== null) {
+      getGuidByNodeId(firstSel);
+    }
+  }
   /////////////////////////////////////////////////////////
   //
   //
@@ -327,29 +354,30 @@ class Markup2DExtension extends MultiModelExtensionBase {
 
     const menuItems = state.modes.map(item => {
       return (
-        <MenuItem
-          eventKey={item.id}
-          key={item.id}
+        <Button
+          active={state.markupsMode.name === item.name}
           onClick={() => {
             this.setMarkupsMode(item);
           }}
         >
           {item.name}
-        </MenuItem>
+        </Button>
       );
     });
 
     return (
       <div className="title">
-        <label>Markups 2D</label>
-
-        <DropdownButton
-          title={'Mode: ' + state.markupsMode.name}
-          key="markup-2d-dropdown"
-          id="markup-2d-dropdown"
-        >
-          {menuItems}
-        </DropdownButton>
+        <Row>
+          <Col xs="12">
+            <ButtonGroup
+              title={'Mode: ' + state.markupsMode.name}
+              key="markup-2d-dropdown"
+              id="markup-2d-dropdown"
+            >
+              {menuItems}
+            </ButtonGroup>
+          </Col>
+        </Row>
       </div>
     );
   }
@@ -384,11 +412,19 @@ class Markup2DExtension extends MultiModelExtensionBase {
         renderTitle={() => this.renderTitle(opts.docked)}
         showTitle={opts.showTitle}
         className={this.className}
-      >
-        {this.renderContent()}
-      </WidgetContainer>
+      />
     );
   }
+}
+
+function getGuidByNodeId(nodeId) {
+  const _guidDbArray = window._guidDbArray;
+  var guid;
+  if (_guidDbArray) {
+    guid = _guidDbArray[nodeId];
+  }
+  alert(guid);
+  return guid;
 }
 
 const Autodesk = window.Autodesk;

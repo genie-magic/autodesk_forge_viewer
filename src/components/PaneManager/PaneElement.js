@@ -203,9 +203,8 @@ class PaneElement extends React.Component {
     const lockStyle = this.props.sizeLocked ? { color: '#FF0000' } : {};
 
     const lockClass = this.props.sizeLocked ? 'fa fa-lock' : 'fa fa-unlock';
+    /*
 
-    return (
-      <div className="controls">
         <button onClick={this.onLockSizeClicked} title="lock widget size">
           <span className={lockClass} style={lockStyle} />
         </button>
@@ -215,8 +214,8 @@ class PaneElement extends React.Component {
         <button onClick={this.onMaximizeClicked} title="maximize widget">
           <span className="fa fa-plus-square-o" />
         </button>
-      </div>
-    );
+ */
+    return <div className="controls" />;
   }
 
   /////////////////////////////////////////////////////////

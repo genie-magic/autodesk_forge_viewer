@@ -5,9 +5,10 @@ import { ConnectedRouter } from 'react-router-redux';
 import store, { history } from './store';
 import App from './scenes/app';
 import registerServiceWorker from './registerServiceWorker';
-import 'bootstrap/dist/css/bootstrap.css';
 import './assets/fonts/font-awesome/css/font-awesome.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
+
 const target = document.querySelector('#root');
 
 render(

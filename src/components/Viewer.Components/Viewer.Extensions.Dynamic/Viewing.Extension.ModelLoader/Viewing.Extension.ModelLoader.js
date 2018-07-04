@@ -243,7 +243,7 @@ class ModelLoaderExtension extends MultiModelExtensionBase {
           model: {
             path: 'resources/models/MiningTruck/1/Mining Truck.svf',
             urn:
-              'dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6Zm9yZ2UtcmNkYi1nYWxsZXJ5LXRtcC1wcm9kL2RlNTktYTgxOC0zYzA1LmYzZA'
+              'dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6Zm9yZ2UtcmNkYi1nYWxsZXJ5LXRtcC1wcm9kL2RlNTktYTgxOC0zYzA1LmYzZB'
           }
         },
         {

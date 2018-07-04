@@ -28,10 +28,11 @@ export default class FilterTreeView extends React.Component {
   constructor(props) {
     super(props);
 
-    this.delegate = new FilterTreeDelegate(props.model);
+    this.delegate = new FilterTreeDelegate(props.model, props.viewer);
 
     this.delegate.on('node.dblClick', node => {
-      this.props.viewer.isolate(node.id, props.model);
+      this.props.viewer.select(node.id, props.model);
+      this.props.viewer.fitToView([node.id], props.model, false);
     });
 
     this.delegate.on('node.checked', node => {

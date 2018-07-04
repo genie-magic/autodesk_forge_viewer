@@ -4,6 +4,7 @@
 //
 /////////////////////////////////////////////////////////////////
 import React from 'react';
+import { Form, Button, FormGroup, Label, Input } from 'reactstrap';
 import MultiModelExtensionBase from '../../Viewer.Extensions/Viewer.MultiModelExtensionBase';
 import WidgetContainer from '../../../WidgetContainer';
 import FilterTreeView from './FilterTreeView/index';
@@ -24,6 +25,8 @@ class SelectionFilterExtension extends MultiModelExtensionBase {
     this.onNodeChecked = this.onNodeChecked.bind(this);
 
     this.renderTitle = this.renderTitle.bind(this);
+    this.handleSearchGuid = this.handleSearchGuid.bind(this);
+    this.handleChangeGuidInput = this.handleChangeGuidInput.bind(this);
 
     this.eventTool = new EventTool(this.viewer);
 
@@ -39,7 +42,8 @@ class SelectionFilterExtension extends MultiModelExtensionBase {
   load() {
     this.react
       .setState({
-        models: []
+        models: [],
+        searchGuid: ''
       })
       .then(() => {
         this.react.pushRenderExtension(this);
@@ -222,25 +226,33 @@ class SelectionFilterExtension extends MultiModelExtensionBase {
   /////////////////////////////////////////////////////////
   onNodeChecked(event) {
     const model = event.model;
-
     const node = event.node;
+
+    //---- Show or Hide the model
+    console.log('model data here');
+    console.log(model);
+    console.log(node);
+
+    const property = Toolkit.getPropertyList(this.viewer, [node.id], model);
+    console.log(property);
+    if (node.checked) {
+      //Toolkit.show(this.viewer, node.id, model);
+      this.viewer.show(node.id, model);
+      this.viewer.impl.visibilityManager.setNodeOff(node.id, false, model);
+    } else {
+      this.viewer.hide(node.id, model);
+      this.viewer.impl.visibilityManager.setNodeOff(node.id, true, model);
+      //Toolkit.hide(this.viewer, node.id, model);
+    }
 
     Toolkit.getLeafNodes(model, node.id).then(dbIds => {
       dbIds.forEach(dbId => {
         if (node.checked) {
           const leafNode = event.tree.getNodeById(dbId);
-
           const checked = leafNode ? leafNode.checked : node.checked;
-
           this.leafNodesMap[model.guid][dbId] = checked;
-          //leafNode
-          // show the model
-          Toolkit.show(this.viewer, dbId, model);
         } else {
           this.leafNodesMap[model.guid][dbId] = false;
-
-          // hide the model
-          Toolkit.hide(this.viewer, dbId, model);
         }
       });
     });
@@ -289,13 +301,39 @@ class SelectionFilterExtension extends MultiModelExtensionBase {
     );
   }
 
+  handleChangeGuidInput(event) {
+    this.react.setState({ searchGuid: event.target.value });
+  }
+
+  handleSearchGuid() {
+    const { searchGuid } = this.react.getState();
+
+    const { models } = this.react.getState();
+    console.log(this.react.getState());
+    models.map(model => {
+      const instanceTree = model.getData().instance1Tree;
+      const rootID = instanceTree.getRootId();
+      console.log('MODEL ROOT ID HERE');
+      console.log(rootID);
+      this.viewer.hide(rootID, model);
+      this.viewer.impl.visibilityManager.setNodeOff(rootID, true, model);
+    });
+
+    // Show only current guid
+    this.viewer.show(parseInt(searchGuid));
+    this.viewer.impl.visibilityManager.setNodeOff(parseInt(searchGuid), false);
+  }
   /////////////////////////////////////////////////////////
   //
   //
   /////////////////////////////////////////////////////////
   renderContent() {
     const { models } = this.react.getState();
-
+    const instanceTreeViews = [];
+    models.map(model => {
+      let instanceTree = model.getInstanceTree();
+      instanceTreeViews.push(instanceTree);
+    });
     const treeViews = models.map(model => {
       return (
         <FilterTreeView
@@ -309,6 +347,23 @@ class SelectionFilterExtension extends MultiModelExtensionBase {
 
     return (
       <div className="content">
+        <Form inline>
+          <FormGroup>
+            <Label for="guid" className="mr-sm-2">
+              GUID
+            </Label>
+            <Input
+              type="text"
+              name="guid"
+              id="guid"
+              placehold="Search with guid"
+              onChange={this.handleChangeGuidInput}
+            />
+            <Button color="primary" onClick={this.handleSearchGuid}>
+              Search
+            </Button>
+          </FormGroup>
+        </Form>
         <ReactLoader show={!models.length} />
         {treeViews}
       </div>

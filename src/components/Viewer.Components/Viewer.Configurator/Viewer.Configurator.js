@@ -1,6 +1,5 @@
 import React from 'react';
 import { ReflexContainer, ReflexElement, ReflexSplitter } from 'react-reflex';
-import autobind from 'autobind-decorator';
 import PropTypes from 'prop-types';
 import easing from 'easing-js';
 import merge from 'lodash/merge';
@@ -14,9 +13,13 @@ import Viewer from '../Viewer';
 import Panel from '../../Panel';
 import './Viewer.Configurator.css';
 import { intlShape } from 'react-intl';
+var Buffer = require('buffer').Buffer;
+var zlib = require('zlib');
 
 const Autodesk = window.Autodesk;
 const THREE = window.THREE;
+let _guidDbArray;
+
 class ViewerConfigurator extends BaseComponent {
   static contextTypes = {
     intl: intlShape
@@ -578,6 +581,38 @@ class ViewerConfigurator extends BaseComponent {
     }, 2000);
   }
 
+  prepareGuidDb(guidPath) {
+    console.log('GUID PATH HERE');
+    console.log(guidPath);
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', guidPath, true);
+    xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+    xhr.responseType = 'arraybuffer';
+    xhr.onload = function() {
+      var dbs = xhr.response;
+      var rawbuf = new Uint8Array(dbs);
+
+      if (rawbuf[0] == 31 && rawbuf[1] == 139) {
+        let buffer = Buffer.from(rawbuf, 'base64');
+
+        zlib.unzip(buffer, (err, buffer) => {
+          if (!err) {
+            //console.log(buffer.toString());
+            //console.log(JSON.parse(buffer.toString()));
+            _guidDbArray = JSON.parse(buffer.toString());
+            window._guidDbArray = _guidDbArray;
+          } else {
+            // handle error
+          }
+        });
+      } else {
+      }
+    };
+
+    xhr.send();
+  }
+
   /////////////////////////////////////////////////////////
   //
   //
@@ -644,13 +679,13 @@ class ViewerConfigurator extends BaseComponent {
 
               viewer.activeModel = model;
 
+              this.prepareGuidDb(modelInfo.guidPath);
+
               /*this.eventSvc.emit('model.loaded', {
                 model
               })*/
             });
-
             break;
-
           case 'AutodeskProduction':
             this.viewerDocument = await this.loadDocument(modelInfo.urn);
 
@@ -901,6 +936,23 @@ class ViewerConfigurator extends BaseComponent {
         return this.renderModel(modelInfo);
     }
   }
+}
+
+// ArrayBuffer to string
+function ab2str(buf) {
+  var chars = new Uint8Array(buf);
+
+  //http://codereview.stackexchange.com/questions/3569/pack-and-unpack-bytes-to-strings
+  //throw a "RangeError: Maximum call stack size exceeded" exception
+  //in browsers using JavaScriptCore (i.e. Safari) if chars has a length
+  //greater than 65536
+  //return String.fromCharCode.apply(null, chars);
+
+  var s = '';
+  for (var i = 0, l = chars.length; i < l; i++)
+    s += String.fromCharCode(chars[i]);
+
+  return s;
 }
 
 ViewerConfigurator.propTypes = {

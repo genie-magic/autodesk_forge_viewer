@@ -6,7 +6,7 @@ export default class FilterTreeDelegate extends TreeDelegate {
   //
   //
   /////////////////////////////////////////////////////////
-  constructor(model) {
+  constructor(model, viewer) {
     super();
 
     this.instanceTree = model.getData().instanceTree;

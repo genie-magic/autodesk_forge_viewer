@@ -666,6 +666,9 @@ export default class Toolkit {
 
       const targetIds = Array.isArray(dbIds) ? dbIds : [dbIds];
 
+      // Target IDS here
+      console.log('Target IDS here ==========');
+      console.log(targetIds);
       targetIds.forEach(dbId => {
         viewer.impl.visibilityManager.setNodeOff(dbId, false);
       });
@@ -971,6 +974,7 @@ export default class Toolkit {
           },
           false
         );
+        1;
 
         svf.instanceTree.enumNodeFragments(
           nodeId,

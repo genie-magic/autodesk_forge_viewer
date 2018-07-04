@@ -16,9 +16,13 @@ const dbModel = {
     rightFlex: 0.35
   },
   model: {
-    path: 'resources/models/office/Resource/3D_View/3D/office.svf',
-    urn: 'dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6bGVlZnNtcC1mb3JnZS9vZmZpY2UucnZ0',
-    name: 'Office'
+    path:
+      'resources/models/rst_advanced_sample_project/Resource/3D View/{3D} 122632/{3D}.svf',
+    guidPath:
+      'resources/models/rst_advanced_sample_project/Resource/objects_ids.json.gz',
+    urn:
+      'dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6Zm9yZ2UtcmNkYi1nYWxsZXJ5LXRtcC1wcm9kL2RlNTktYTgxOC0zYzA1LmYzZA',
+    name: 'Building'
   },
   dynamicExtensions: [
     {
